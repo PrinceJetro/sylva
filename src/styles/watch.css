@@ -1,0 +1,94 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.container-fluid{
+  max-width: 100%;
+}
+.watch-div{
+    width: 254px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.watch-div h1{
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+
+#search-bar {
+    position: relative;
+  }
+  
+  #search-input {
+    line-height: 2rem;
+    border-radius: 10px;
+    padding: 0.2rem 2rem;
+    font-size: 1.2rem;
+  }
+  
+  #search-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0.8rem;
+    padding: 0px 0.5rem;
+  }
+  
+  #mic-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.8rem;
+    padding: 0px 0.5rem;
+  }
+
+  .new-movies{
+    padding: 15px;
+  }
+
+  
+  .new-movies .container{
+    overflow-x: auto;
+  white-space: nowrap;
+  }
+
+.new-movies h1{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+  .upcoming-movies{
+    padding: 15px;
+  }
+
+  .upcoming-movies .container{
+    overflow-x: auto;
+  white-space: nowrap;
+  }
+
+.upcoming-movies h1{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

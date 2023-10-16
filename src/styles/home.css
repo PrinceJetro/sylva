@@ -1,0 +1,130 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url("../images/Ellipsepink.png"), url("../images/Ellipsegreen.png");
+    background-repeat: no-repeat;
+    background-size: cover, contain; /* You can set different sizes for each image */
+    background-position: center, right top; /* Adjust the positions as needed */
+   background-repeat: no-repeat, repeat; /* Set the repeat behavior for each image */
+  }
+  
+.vr-div{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+
+
+}
+  .vr /* Apply the gradient border and rounded corners to the div */{
+    width: 328px;
+    height: 328px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #FE53BB, #08f7fe); /* Set your desired gradient colors here */
+    border: 5px solid transparent; /* Set the border width and make it transparent */
+    background-clip: content-box; /* This clips the background within the border */
+    display:flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .vr img{
+    width: 318px;
+    height: 318px;
+    flex-shrink: 0;
+    border-radius: 50%/52%;
+    object-fit: cover; 
+    background-color: #19191b;
+      }
+
+.watch-div{
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}      
+.watch{
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+.download-div{
+    width: 234px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}      
+.download{
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.btn-div{
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}
+
+.btn {
+    width: 160px;
+    height: 38px;
+    flex-shrink: 0;
+    background: 
+    linear-gradient(#19191b, #19191b) padding-box,
+    linear-gradient(60deg, #FE53BB, #09FBD3) border-box;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    color: white;
+}
+  
+
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 41px;
+    height: 9px;
+    flex-shrink: 0;
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #08F7FE; /* Set your desired color */
+    border-radius: 50%; /* Makes it a circle */
+    transition: 0.3s;
+  }
+  .non-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #FFFDFD40; /* Set your desired color */
+    border-radius: 50%; /* Makes it a circle */
+    transition: 0.3s;
+  }
+  
