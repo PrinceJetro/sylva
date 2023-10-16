@@ -31,7 +31,11 @@ function TabBar() {
   function setClass(node, className) {
     node.classList.add(className);
   }
-  function Jetro() {
+  function gohome() {
+    const url = "/";
+    window.location.href = url;
+  }
+    function Jetro() {
     const url = "http://adegbuyi-jephthah.vercel.app/";
     const newTab = window.open(url, "_blank");
     newTab.focus(); // Optional: Switch focus to the new tab
@@ -46,7 +50,7 @@ function TabBar() {
             <li
               className={`home ${activeClass === 'home' ? 'active' : ''}`}
               data-where="home"
-              onClick={(e) => handleClick(e, e.currentTarget, 'home')}
+              onClick={gohome}
             >
               <span className="material-icons-outlined">home</span>
             </li>

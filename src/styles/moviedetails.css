@@ -2,7 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     background: #222;
-    background-image: url("../images/Ellipsegreen.png");
+    background-image: url("../images/Ellipsepink.png"), url("../images/Ellipsegreen.png");
     background-repeat: no-repeat;
     background-size: cover, contain; /* You can set different sizes for each image */
     background-position: center, right top; /* Adjust the positions as needed */
