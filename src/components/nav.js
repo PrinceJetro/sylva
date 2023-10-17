@@ -40,6 +40,11 @@ function TabBar() {
     const newTab = window.open(url, "_blank");
     newTab.focus(); // Optional: Switch focus to the new tab
   }
+    function sylva() {
+    const url = "https://x.com/DavidSylva_1?s=20";
+    const newTab = window.open(url, "_blank");
+    newTab.focus(); // Optional: Switch focus to the new tab
+  }
   
 
   return (
@@ -81,6 +86,14 @@ function TabBar() {
               onClick={Jetro}
             >
               <span className="material-icons-outlined"><img src={jetro} alt='the dev' className='jetro'/></span>
+    
+            </li>
+            <li
+              className={`help ${activeClass === 'help' ? 'active' : ''}`}
+              data-where="help"
+              onClick={sylva}
+            >
+              <span className="material-icons-outlined"><span className="material-icons-outlined"><i className=' fa fa-twitter'></i></span></span>
     
             </li>
             <li className="follow"></li>
