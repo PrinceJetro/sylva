@@ -49,7 +49,7 @@ export default function Watch(){
               <div className="new-movies">
                 <h1>New Movies</h1>
                 <div className="container">
-                {data.slice(0, 4).map((item, index) => (
+                {data.slice(0, 9).map((item, index) => (
                  <Link to={`/movie/${item.name}`} key={index}>
                     <New  img={item.src} key={index}/>
                 </Link>
@@ -61,7 +61,7 @@ export default function Watch(){
             <div className="upcoming-movies">
             <h1>Upcoming Movies</h1>
             <div className="container">
-                {data.slice(4).map((item, index) => (
+                {data.slice(9).map((item, index) => (
                  <Link to={`/movie/${item.name}`} key={index}>
                  <New  img={item.src} key={index}/>
              </Link>                         ))} 

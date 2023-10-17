@@ -20,6 +20,71 @@ export default [
     ]
     },
     {
+        src: "https://m.media-amazon.com/images/M/MV5BYWUyNGEyZmQtZTc1NS00NDY0LTg1MzktY2JiYTkxYzNjNTBlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        video: "https://www.youtube.com/embed/AiohkY_XQYQ?si=cnl8ZhskPebRnxU0",
+        name: "Troll",
+        genre:"	Action, Adventure , Drama",
+        plot:'Deep in the Dovre mountain, something gigantic wakes up after a thousand years in captivity. The creature destroys everything in its path and quickly approaches Oslo.',
+        casts: [
+            {
+            cast:"Ine Marie Wilmann",
+            image: "https://m.media-amazon.com/images/M/MV5BMTQ4NDgzODAxMF5BMl5BanBnXkFtZTgwMTM0NDg0NzE@._V1_.jpg"
+        },
+    ]
+    },
+    {
+        src: "https://m.media-amazon.com/images/M/MV5BNWZhZjUxZGUtMzM1OC00MjdmLWIzZjUtZTUzODc2ZTI2YzQzXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg",
+        video: "https://www.youtube.com/embed/-Ao79QJNE-s?si=iHfGEWSRV8bxHiMx",
+        name: "The Monkey King",
+        genre:"	2023 ‧ Fantasy/Family film ‧ 1h 36m",
+        plot:'Charismatic Monkey and his magical fighting stick team up on an epic quest during which they must go head-to-head against gods, demons, dragons and the greatest enemy of all, Monkey\'s own ego.',
+        casts: [
+            {
+            cast:"Jimmy O. Yang",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Jimmy_O._Yang.png/220px-Jimmy_O._Yang.png"
+        },
+    ]
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/en/6/6a/Ballerina_%282023_film%29.jpg",
+        video: "https://www.youtube.com/embed/IhXfUTGVEUI?si=vQxIdZHjjzWPiQGz",
+        name: "Ballerina",
+        genre:"Korean action thriller film",
+        plot:'Grieving the loss of a best friend she could not protect, former bodyguard Ok-ju sets out to fulfil her dear friend\'s last wish: sweet, sweet revenge.',
+        casts: [
+            {
+            cast:"Jeon Jong-seo ",
+            image: "https://asianwiki.com/images/4/4f/Jun_Jong-Seo-1994-p1.jpg"
+        },
+    ]
+    },
+    {
+        src: "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/LocksmithFilmPoster.png/220px-LocksmithFilmPoster.png",
+        video: "https://www.youtube.com/embed/zYsCP6iiw7g?si=10oF-HvEgLkR5Dx5",
+        name: "The LockSmith",
+        genre:"Thriller, Action , Crime and Mystery",
+        plot:'A thief fresh out of prison, tries to work his way back into the life of his daughter and ex-fiancé. Determined, he is forced to use the skills he has as a gifted locksmith. Things take a tumultuous turn after an unexpected disappearance.',
+        casts: [
+            {
+            cast:"Kate Bosworth",
+            image: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kate_Bosworth_Deauville_2011.jpg"
+        },
+    ]
+    },
+    {
+        src: "https://m.media-amazon.com/images/M/MV5BYTE1OWE0YTUtN2E2OS00OGFjLWJjODEtY2QxMDJjNDdjNTBlXkEyXkFqcGdeQXVyMTYzODA4MzA5._V1_.jpg",
+        video: "https://www.youtube.com/embed/ocOjEtqq_Nw?si=f3jw9Gxd2KfMCMY2",
+        name: "Ijogbon",
+        genre:"	Drama and Triller",
+        plot:'Four teenagers from a rural village in South West Nigeria stumble upon a pouch of uncut diamonds but before long, others come looking for the bounty.',
+        casts: [
+            {
+            cast:"Fawas Aina",
+            image: "https://thedailypage.ng/wp-content/uploads/2021/08/Screenshot_20210831-101533.png"
+        },
+    ]
+    },
+    {
         src: "https://www.artofvfx.com/wp-content/uploads/2023/06/blue_beetle_ver2_xlg-jpg.webp",
         video: "https://www.youtube.com/embed/vS3_72Gb-bI?si=sEtKup4lVE4cl4PR",
         name: "Blue Beetle",
